@@ -1,0 +1,18 @@
+site_name: Git
+site_url: https://example.com/
+nav:
+  - Как изучить git: Как изучить git.md
+  - Подготовка к использованию git: Подготовка к использованию git.md
+  - Что такое git: Что такое git.md
+  - Основы GitHub desktop: Основы GitHub desktop.md
+  - Основы GitHub: Основы GitHub.md
+  - Решение Merge конфликтов в VS Code: Решение Merge конфликтов в VS Code.md
+  - Критерии понимания основ git и GitHub: Критерии понимания основ git и GitHub.md
+  - Базовые консольные команды git: Базовые консольные команды git.md
+  - Использование основных функций git в VSCode: Использование основных функций git в VSCode.md
+  - Рабочие процессы с использованием git: Рабочие процессы с использованием git.md
+  - Барахолка средних и продвинутых материалов по Git: Барахолка средних и продвинутых материалов по Git.md
+  - Как изучить Markdown: Как изучить Markdown.md
+  - Markdown: markdown.md
+
+theme: readthedocs
