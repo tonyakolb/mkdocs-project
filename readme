@@ -1,7 +1,0 @@
-Скачать:  
-$ pip install mkdocs
-
-Для запуска в терминале:
-
-$ cd my-project
-$ mkdocs serve
