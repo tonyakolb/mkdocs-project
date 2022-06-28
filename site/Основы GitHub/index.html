@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://learning-git.com/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20GitHub/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Основы GitHub - Git</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u041e\u0441\u043d\u043e\u0432\u044b GitHub";
+        var mkdocs_page_input_path = "\u041e\u0441\u043d\u043e\u0432\u044b GitHub.md";
+        var mkdocs_page_url = "/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20GitHub/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Git
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%9A%D0%B0%D0%BA%20%D0%B8%D0%B7%D1%83%D1%87%D0%B8%D1%82%D1%8C%20git/">Как изучить git</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BA%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E%20git/">Подготовка к использованию git</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20git/">Что такое git</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20GitHub%20desktop/">Основы GitHub desktop</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Основы GitHub</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20Merge%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2%20%D0%B2%20VS%20Code/">Решение Merge конфликтов в VS Code</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%9A%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D0%B8%20%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%20git%20%D0%B8%20GitHub/">Критерии понимания основ git и GitHub</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20git/">Базовые консольные команды git</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%CC%86%20git%20%D0%B2%20VSCode/">Использование основных функций git в VSCode</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20git/">Рабочие процессы с использованием git</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%91%D0%B0%D1%80%D0%B0%D1%85%D0%BE%D0%BB%D0%BA%D0%B0%20%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D1%85%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D1%8B%D1%85%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%BE%D0%B2%20%D0%BF%D0%BE%20Git/">Барахолка средних и продвинутых материалов по Git</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%D0%9A%D0%B0%D0%BA%20%D0%B8%D0%B7%D1%83%D1%87%D0%B8%D1%82%D1%8C%20Markdown/">Как изучить Markdown</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../markdown/">Markdown</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Git</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Основы GitHub</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p>&lt;-<a href="http://127.0.0.1:8000/%D0%9A%D0%B0%D0%BA%20%D0%B8%D0%B7%D1%83%D1%87%D0%B8%D1%82%D1%8C%20git/">Как изучить git</a></p>
+<h1 id="github">Основы GitHub</h1>
+<p>Для изучения GitHub лучше всего воспользоваться их собственными курсами на сайте - <a href="https://skills.github.com/">GitHub Skills</a> <strong>[Eng]</strong>. Для изучения основ нужно пройти 4 курса:<br />
+1. <strong>Introduction to GitHub</strong>;<br />
+2. <strong>Communicate using Markdown</strong>;<br />
+3. <strong>Review pull requests</strong>;<br />
+4. <strong>Resolve merge conflicts</strong>.</p>
+<p>Курсы представляют собой шаблоны репозиториев. Инструкция по выполнению курса находится в описании к репозиториям. Каждый курс занимает меньше одного часа на выполнение.</p>
+<hr />
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20GitHub%20desktop/" class="btn btn-neutral float-left" title="Основы GitHub desktop"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20Merge%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2%20%D0%B2%20VS%20Code/" class="btn btn-neutral float-right" title="Решение Merge конфликтов в VS Code">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20GitHub%20desktop/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20Merge%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D0%BE%D0%B2%20%D0%B2%20VS%20Code/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
